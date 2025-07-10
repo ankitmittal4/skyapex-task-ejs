@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sale Deed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sale Deed</h1>
+    <p>
+        This Sale Deed is made on <%= date %> between
+            <strong>
+                <%= name %>
+            </strong>, S/o <strong>
+                <%= father_name %>
+            </strong>,
+            for a property of <strong>
+                <%= property_size %>
+            </strong> sq.ft., sold for
+            <strong>₹<%= sale_amount %></strong>.
+    </p>
+</body>
+
+</html>
