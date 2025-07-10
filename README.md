@@ -34,18 +34,27 @@ A simple web application that allows users to fill out a form with property deta
 ```bash
 git clone https://github.com/ankitmittal4/skyapex-task-ejs.git
 cd skyapex-task-ejs
+```
 
 2. Install dependencies:
 
 ```bash
 npm install
-
+```
 3. Run the Server:
 
 ```bash
 node server.js
-
+```
 4. Open the URL in Browser
 
 ```bash
 http://localhost:4000
+```
+---
+
+## Live project Link
+
+```bash
+https://skyapex-task-ejs.onrender.com/
+```
